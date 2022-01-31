@@ -3,21 +3,38 @@ html, body {
   padding: 0;
   position: relative;
   font-family: 'Taviraj', serif;
+  color:rgb(51, 51, 51);
 }
 
 a {
-  color: black;
+  color:rgb(51, 51, 51);
   text-decoration: none;
 }
 
 h1 {
-  width: 15vw;
+  width: 20vw;
   margin-bottom: 0px;
+  font-size: 2.2em;
+  letter-spacing: 0.1em;
 }
 
 h5 {
   margin: 0px;
-  padding-bottom: 1em;
+  padding-bottom: 0px;
+}
+
+.hr {
+  margin: 0px 0px 40px 0px;
+  padding: 0px;
+  border: 0;
+  clear:both;
+  width: 10%;               
+  background-color:rgb(51, 51, 51);
+  height: 1px;
+}
+
+.hr-- {
+  width: 20%;
 }
 
 .wrapper {
@@ -63,7 +80,7 @@ h5 {
   flex-direction: column;
   align-items: flex-start;
   margin: auto;
-  padding: 2em;
+  padding: 2em 0em 2em 2em;
   width: 30vw;
   /* border: 2px solid black; */
 }
@@ -99,6 +116,10 @@ h5 {
   font-size: 1.2em;
   background-color: transparent;
   border-color:rgb(223, 73, 40);
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 
