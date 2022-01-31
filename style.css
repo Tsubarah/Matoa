@@ -99,6 +99,7 @@ h5 {
 }
 
 .add-btn {
+  margin-right: 1vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -111,7 +112,6 @@ h5 {
 }
 
 .info-btn {
-  margin-left: 1vw;
   color:rgb(223, 73, 40);
   font-size: 1.2em;
   background-color: transparent;
@@ -122,5 +122,31 @@ button:hover {
   cursor: pointer;
 }
 
+.login {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  border: 2px solid black;
+}
 
+.login h2, h3 {
 
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 40%;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.add-btn-- {
+  width: 100px;
+  height: 30px;
+}
