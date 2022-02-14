@@ -123,10 +123,15 @@ button:hover {
 }
 
 .login {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 20%;
   width: 600px;
   height: 300px;
   margin: auto;
   border: 2px solid black;
+  background-color: antiquewhite;
 }
 
 .login h2, h3 {
@@ -149,4 +154,8 @@ button:hover {
 .add-btn-- {
   width: 100px;
   height: 30px;
+}
+
+.hidden {
+  display: none;
 }
